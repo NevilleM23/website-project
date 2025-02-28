@@ -2,15 +2,24 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-} 
+}     
+
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 
 header {
     display: flex;
+    max-width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(24, 8, 8);
     color:aliceblue;
-    padding: 30px;
+    padding: 20px 10%;
+    text-align: center;
 } 
 
 nav ul{
@@ -31,7 +40,7 @@ nav ul li a{
 } 
 
 .contact-form{
-   height: 100vh;
+   min-height: 70vh;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
@@ -78,7 +87,7 @@ nav ul li a{
     border-radius: 20px;
 }  
 
-.contact-input ::placeholder{
+.contact-input::placeholder{
     color: #a9a9a9;
 }  
 
@@ -93,4 +102,27 @@ nav ul li a{
     border-radius: 50px;
     background: linear-gradient(270deg, #ffa14f, #fa6d86);
     cursor: pointer
+} 
+
+.footer {
+    max-width: 100%;
+    padding: 20px 10%; 
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.footer .col-1,
+.footer .col-2,
+.footer .col-3 {
+    flex: 1; 
+    min-width: 200px; 
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
