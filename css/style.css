@@ -46,12 +46,13 @@ nav ul li a{
    justify-content: space-evenly;
 }
 
-.contact-input{
+.contact-left{
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 20px; 
-} 
+}   
+
 
 .contact-form-title h3{
     font-weight: 600;
@@ -102,7 +103,13 @@ nav ul li a{
     border-radius: 50px;
     background: linear-gradient(270deg, #ffa14f, #fa6d86);
     cursor: pointer
-} 
+}  
+
+.contact-form-right img{
+    width:100%;
+    height: auto;
+
+}
 
 .footer {
     max-width: 100%;
