@@ -107,16 +107,16 @@ nav ul li a{
   
   .contact-form-title h3 {
     font-weight: 600;
-    color: #ffa14f;
+    color:black;
     font-size: 22px;
     margin-bottom: 5px;
   }
   
   .contact-form-title hr {
     border: none;
-    width: 120px;
+    width: 200px;
     height: 5px;
-    background-color: yellow;
+    background-color: lightblue;
     border-radius: 10px;
     margin-bottom: 20px;
   }

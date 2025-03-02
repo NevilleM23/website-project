@@ -2,11 +2,14 @@
 
 ## About the Project
 
-This is a basic website landing page for a personal portolio, once loaded onto the landing page you will be greeted with:
+This is a basic personal website for a personal portolio, once loaded onto the landing page you will be greeted with:
 
- -  Navigation Bar within the header of the page
- -  General information on the person the website is about as well as a picture
- - Contact form at the bottom of the website
+ -  Navigation Bar within the header of the page indicating all three pages on the website (Home, About Me, Contact Page)
+ -  Picture of the website owner as well as  a page greeting
+ -  Footer with additional information 
 
-The page has basic css stylings seperating each section and making it easier for the user to navigate and also makes the general look of the website more please 
+The About me page has basic information on the websites owner as well another picture of the owner
+
+The Contact Page has a basic form asking for Name, Email, and a message to be typed into to the owner.
+
 
