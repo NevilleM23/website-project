@@ -8,6 +8,12 @@ main{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url("../Images/abstract-86-background-wallpaper-gradient_792836-183404.avif   ");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:black;
+    padding: 150px 150px;
 }
 
 
@@ -37,7 +43,27 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+}  
+
+.index-info{    
+    background-image: url("../Images/IMG_7527.jpeg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    color: white;
+    padding: 490px 200px 
 } 
+
+.index-info-left{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}  
+
+.neville-picture{
+    height: auto;
+    width: 100%;
+}
 
 .contact-form{
    min-height: 70vh;
@@ -132,4 +158,6 @@ nav ul li a{
 .footer h3 {
     font-size: 18px;
     margin-bottom: 10px;
-}
+}   
+
+
